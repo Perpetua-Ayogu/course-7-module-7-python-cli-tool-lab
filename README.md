@@ -190,3 +190,12 @@ After completing this lab, you will:
 ✅ Apply argparse and OOP to real development workflows
 
 These skills help you build maintainable CLI tools that scale with complexity and support real-world use cases.
+# Completed lab: Module 7 — Python CLI Tool
+
+Run `python -m lib.cli_tool --help` or `python lib/cli_tool.py --help`. Task and User objects support adding, finding, and completing tasks. Names and titles cannot be blank. This lab follows the starter's in-memory design: state lasts only for the current Python process. Separate command invocations do not share tasks.
+
+Validation: 2 tests passed. Run `python -m pytest --assert=plain -q` from the repository root after installing test dependencies. The plain-assertion option supports the pinned pytest on Python 3.14.
+
+![Verified test results](docs/test-results.png)
+
+The image shows captured test output rendered for documentation. Canvas accepts this repository URL for submission.
